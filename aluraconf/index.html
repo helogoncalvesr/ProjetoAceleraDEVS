@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Aluraconf</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="main-menu">
+            <ul>
+                <li class="menu-item"><a href="#panel-about">Sobre</a></li>
+                <li class="menu-item"><a href="#panel-palestrantes">Palestrantes</a></li>
+            </ul>
+        </nav>
+        <div class="capa">
+            <section class="panel-main">
+                <h1 class="title">ALURACONF</h1>
+                <h2 class="subtitle">30MAIO|RIO</h2>
+            </section>
+            <section class="panel-subscribe">
+                <a href="#panel-form" class="button">Inscreva-se</a>
+            </section>
+        </div>
+    </header>
+
+    <section id="panel-about" class="panel panel-about">
+        <div class="container">
+            <h2 class="title">Muito conteúdo: do frontend ao backend</h2>
+            <h3 class="subtitle">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+
+            <div class="about-description">
+                <p>
+                    Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolver mobile.
+                </p>
+                <p>
+                    É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte
+                    backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="panel-palestrantes" class="panel panel-palestrantes" >
+        <div class="container">
+            <div class="about-palestrantes">
+                <h2 class="title">PALESTRANTES</h2>
+                <h3 class="subtitle">Aprenda com palestrantes que são referência no mercado</h3>
+            </div>
+
+            <ul class="palestrantes">
+
+                <li class="palestrante">
+                    <figure class="palestrante-portrait">
+                        <img class="palestrante-image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante Flavio">
+                        <figcaption class="palestrante-name">Flávio Almeida</figcaption>
+                        <p class="palestrante-bio">Desenvolvedor e instrutor da Caelum</p>
+                    </figure>
+                    <p class="palestrante-palestra">To be or not to be MEAN</p>
+                </li>
+
+                <li class="palestrante">
+                    <figure class="palestrante-portrait">
+                        <img class="palestrante-image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante Flávio">
+                        <figcaption class="palestrante-name">Flávio Almeida</figcaption>
+                        <p class="palestrante-bio">Desenvolvedor e instrutor da Caelum</p>
+                    </figure>
+                    <p class="palestrante-palestra">To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN To be or not to be MEAN</p>
+                </li>
+
+                <li class="palestrante">
+                    <figure class="palestrante-portrait">
+                        <img class="palestrante-image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante Flávio">
+                        <figcaption class="palestrante-name">Flávio Almeida</figcaption>
+                        <p class="palestrante-bio">Desenvolvedor e instrutor da Caelum</p>
+                    </figure>
+                    <p class="palestrante-palestra">To be or not to be MEAN</p>
+                </li>
+
+                <li class="palestrante">
+                    <figure class="palestrante-portrait">
+                        <img class="palestrante-image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante Flávio">
+                        <figcaption class="palestrante-name">Flávio Almeida</figcaption>
+                        <p class="palestrante-bio">Desenvolvedor e instrutor da Caelum</p>
+                    </figure>
+                    <p class="palestrante-palestra">To be or not to be MEAN</p>
+                </li>
+
+                <li class="palestrante">
+                    <figure class="palestrante-portrait">
+                        <img class="palestrante-image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante Flávio">
+                        <figcaption class="palestrante-name">Flávio Almeida</figcaption>
+                        <p class="palestrante-bio">Desenvolvedor e instrutor da Caelum</p>
+                    </figure>
+                    <p class="palestrante-palestra">To be or not to be MEAN</p>
+                </li>
+
+                <li class="palestrante">
+                    <figure class="palestrante-portrait">
+                        <img class="palestrante-image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+                        <figcaption class="palestrante-name">Flávio Almeida</figcaption>
+                        <p class="palestrante-bio">Desenvolvedor e instrutor da Caelum</p>
+                    </figure>
+                    <p class="palestrante-palestra">To be or not to be MEAN</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="panel-form" class="panel-form">
+        <div class="container">
+            <h2 class="title">Seus dados</h2>
+            <form>
+                <div class="field">
+                    <label>Nome</label>
+                    <input type="text" name="name" class="field-input" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Por favor, preencha pelo menos 4 caracteres" >
+                </div>
+                <div class="field">
+                    <label>E-mail</label>
+                    <input type="email" class="field-input" name="email" id="email" placeholder="Endereço de email" data-rule="email" data-msg="Por favor, preencha um endereço de email válido"> 
+                </div>
+                <div class="button-place">
+                    <button class="button">REALIZAR INSCRIÇÃO</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html>

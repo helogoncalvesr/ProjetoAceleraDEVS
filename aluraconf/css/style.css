@@ -1,0 +1,223 @@
+/** Esse é o arquivo css para o projeto do curso Acelera DEVS
+* Parceria da TIVIT com a MCIO Academy
+**/
+
+
+/*--------------------------------------------------------------
+# Geral
+--------------------------------------------------------------*/
+
+.container {    
+    width: 96%;
+    margin: 0 auto;
+}
+
+.field {
+    margin-bottom: 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.field .field-input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A2A6; 
+}
+
+.button {
+    
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px 50px;
+    background-color: #45acaf;
+    border-radius: 8px;
+}
+
+/** --------------------------
+# Header
+-----------------------------**/
+
+.header {
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+
+.header .main-menu {
+    text-align: center;
+}
+
+.header .main-menu .menu-item {
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.header .main-menu .menu-item a {
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.header .main-menu .menu-item a:hover {
+    background-color: #45acaf;
+}
+
+.header .capa {
+    text-align: center;
+    padding: 0 0 44px 0;
+    text-transform: uppercase;
+}
+
+.header .panel-main {
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+
+.header .capa .title {
+    font-size: 3em;
+}
+
+.header .capa .subtitle {
+    font-size: 2.6em;
+    color: #5ff85f;
+    margin-top: 8px;
+}
+.header .capa .button {    
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px 50px;
+    background-color: #45acaf;
+    border-radius: 8px;
+}
+
+.header .capa .panel-subscribe {
+    margin-top: 28px;
+}
+
+@media(min-width: 650px) {
+    .header .capa {
+        font-size: 28px;
+    }
+            
+}
+
+/**-------------------------------------------------------------
+# Sessão Sobre/About
+--------------------------------------------------------------*/
+
+.panel-about {
+    margin-top: 20px;
+    text-align: center;
+} 
+
+.panel-about .title {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.panel-about .subtitle {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.panel-about .about-description {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+/*--------------------------------------------------------------
+# Spalestrantes/Palestrantes
+--------------------------------------------------------------*/
+
+
+.panel-palestrantes {
+    padding-top: 40px;
+    background: #fc7649;
+}
+.panel-palestrantes .about-palestrantes {
+    text-align: center;
+}
+
+.panel-palestrantes .title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 16px;
+
+}
+
+.panel-palestrantes .subtitle {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.panel-palestrantes .palestrantes {
+    text-align: center;
+}
+
+.panel-palestrantes .palestrante {
+    background: white;
+    display: inline-block;
+    margin: 0 16px 32px 0;
+    padding: 18px;
+    border-radius: 10px;
+    width: 220px;
+    vertical-align: top;
+}
+
+.panel-palestrantes .palestrante-image {
+    border-radius: 50%;
+}
+
+.panel-palestrantes .palestrante-name {
+    margin-top: 10px;
+}
+
+.panel-palestrantes .palestrante-bio {
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.panel-palestrantes .palestrante-speach {    
+   margin-top: 16px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Form/Formulário
+--------------------------------------------------------------*/
+
+.panel-form {
+    margin-top: 32px;
+}
+
+.panel-form .title {
+    font-size: 32px;
+    color: #fc7649;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-place {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
